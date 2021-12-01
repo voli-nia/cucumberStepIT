@@ -1,0 +1,397 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-30T19:59:52.941Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1919384400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.startBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1994100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login to app",
+        "description": "",
+        "id": "login-with-valid-credentials;login-to-app;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 187496000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the app login page is open",
+            "match": {
+              "location": "com.step_it.step_definitions.CommonDefinitions.theAppLoginPageIsOpen()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_it.hooks.TestHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 230384300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enters correct standard_user and secret_sauce",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 24
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 42
+                }
+              ],
+              "location": "com.step_it.step_definitions.LoginDefinitions.theUserEntersCorrectUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_it.hooks.TestHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70811000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.step_it.step_definitions.CommonDefinitions.theUserIsLoggedIn()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 994700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_it.hooks.TestHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Start"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T19:59:55.471Z",
+        "before": [
+          {
+            "result": {
+              "duration": 84774200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.startBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2979100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login to app",
+        "description": "",
+        "id": "login-with-valid-credentials;login-to-app;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39877600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the app login page is open",
+            "match": {
+              "location": "com.step_it.step_definitions.CommonDefinitions.theAppLoginPageIsOpen()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_it.hooks.TestHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177527200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enters correct problem_user and secret_sauce",
+            "match": {
+              "arguments": [
+                {
+                  "val": "problem_user",
+                  "offset": 24
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 41
+                }
+              ],
+              "location": "com.step_it.step_definitions.LoginDefinitions.theUserEntersCorrectUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 993900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_it.hooks.TestHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27926100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.step_it.step_definitions.CommonDefinitions.theUserIsLoggedIn()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_it.hooks.TestHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Start"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T19:59:55.829Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Add product to cart",
+        "description": "",
+        "id": "login-with-valid-credentials;add-product-to-cart;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 204993500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.driverTearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 131875000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user is on product page",
+            "match": {
+              "location": "com.step_it.step_definitions.ProductDefinitions.theUserIsOnProductPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_it.hooks.TestHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5100680900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user adds Sauce Labs Backpack to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Backpack",
+                  "offset": 14
+                }
+              ],
+              "location": "com.step_it.step_definitions.ProductDefinitions.theUserAddsProductToCart(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_it.hooks.TestHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28845000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the cart counter is updated by 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 31
+                }
+              ],
+              "location": "com.step_it.step_definitions.CommonDefinitions.theCartCounterIsUpdated(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_it.hooks.TestHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout"
+          },
+          {
+            "name": "@Stop"
+          }
+        ]
+      }
+    ],
+    "name": "Login with valid credentials",
+    "description": "  As a customer I want to be able to login into app with valid credentials",
+    "id": "login-with-valid-credentials",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login/Login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="8.57">
+    <testcase classname="Login with valid credentials" name="Login to app" time="2.511">
+        <system-out><![CDATA[Given the app login page is open............................................passed
+When the user enters correct standard_user and secret_sauce.................passed
+Then the user is logged in..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login with valid credentials" name="Login to app 2" time="0.346">
+        <system-out><![CDATA[Given the app login page is open............................................passed
+When the user enters correct problem_user and secret_sauce..................passed
+Then the user is logged in..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login with valid credentials" name="Add product to cart" time="5.476">
+        <system-out><![CDATA[Given the user is on product page...........................................passed
+When the user adds Sauce Labs Backpack to cart..............................passed
+Then the cart counter is updated by 1.......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
